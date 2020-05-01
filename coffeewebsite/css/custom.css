@@ -80,8 +80,3 @@ li {
 .navbar-brand {
   font-size: 35px;
 }
-
-
-.navbar-nav li a:hover {
-  color: #581402 !important;
-}
