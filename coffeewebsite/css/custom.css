@@ -15,7 +15,7 @@ p {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -51,8 +51,8 @@ a {
 
 
 
-.bio {
-  padding-top: 35px;
+.collapsibleNavbar {
+  text-align: right;
 }
 
 .stars {
