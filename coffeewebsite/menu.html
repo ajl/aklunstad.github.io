@@ -51,7 +51,7 @@
     <!--Image at head of page-->
         <div class="container-fluid">
         <div class="row">
-              <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,w_1600/v1588606163/coffee-header.jpg" alt="Latte on table" class="img-fluid">
+              <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,w_1600/v1588606163/coffee-header.jpg" alt="Latte on table" class="img-fluid lazy">
         </div>
       </div>
 
@@ -66,7 +66,7 @@
       <div class="container">
         <div class="row menu">
           <div class="col-md-3">
-            <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606137/espresso.jpg" alt="espresso" class="img-fluid rounded-circle p-4">
+            <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606137/espresso.jpg" alt="espresso" class="img-fluid rounded-circle p-4 lazy">
           </div>
           <div class="col-md-6 align-self-center">
             <p>A well-crafted espresso made with care from our finest, single-origin beans. Served with a small glass of sparkling water.</p>
@@ -76,7 +76,7 @@
           </div>
 
           <div class="col-md-3">
-            <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606148/latte.jpg" alt="latte" class="img-fluid rounded-circle p-4">
+            <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606148/latte.jpg" alt="latte" class="img-fluid rounded-circle p-4 lazy">
           </div>
           <div class="col-md-6 align-self-center">
             <p>Our signature latte, topped with a light dusting of cocoa powder. <br> Substitute a milk alternative of your choice (oat, almond, or soy milk) for an extra $0.50</p>
@@ -86,7 +86,7 @@
           </div>
 
           <div class="col-md-3">
-            <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606136/black-coffee.jpg" alt="black coffee" class="img-fluid rounded-circle p-4">
+            <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606136/black-coffee.jpg" alt="black coffee" class="img-fluid rounded-circle p-4 lazy">
           </div>
           <div class="col-md-6 align-self-center">
             <p>Fantastic black coffee made with single-origin beans. Best enjoyed without cream or sugar or anything to take away from the intense flavor. We will be watching.</p>
@@ -96,7 +96,7 @@
           </div>
 
           <div class="col-md-3">
-            <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606123/matcha.jpg" alt="matcha latte" class="img-fluid rounded-circle p-4">
+            <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_600,w_600/v1588606123/matcha.jpg" alt="matcha latte" class="img-fluid rounded-circle p-4 lazy">
           </div>
           <div class="col-md-6 align-self-center">
             <p>A warm, comforting matcha latte made from ceremonial grade matcha.<br> Can also be made with a milk alternative of your choice for an extra $0.50.</p>
@@ -127,5 +127,12 @@
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+      <script type="text/javascript">
+        var lazyLoadInstance = new LazyLoad({
+          elements_selector: ".lazy"
+          // ... more custom settings?
+        });
+      </script>
     </body>
 </html>

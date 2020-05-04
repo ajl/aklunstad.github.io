@@ -49,7 +49,7 @@
 
     <div class="container-fluid">
       <div class="row">
-          <img src="https://res.cloudinary.com/dadqhsajo/image/upload/v1588606163/coffee-header.jpg" alt="Latte on table" class="img-fluid">
+          <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/v1588606163/coffee-header.jpg" alt="Latte on table" class="img-fluid lazy">
       </div>
     </div>
 
@@ -75,7 +75,7 @@
             TikTok: @CoffeeInQuarantine</p>
         </div>
         <div class="col-md-6">
-          <img src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,w_1600/v1588606114/customer-service.jpg" alt="Smiling man at cash register" class="img-fluid p-6">
+          <img data-src="https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,w_1600/v1588606114/customer-service.jpg" alt="Smiling man at cash register" class="img-fluid p-6 lazy">
         </div>
       </div>
     </div>
@@ -100,5 +100,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+        // ... more custom settings?
+      });
+    </script>
   </body>
 </html>
