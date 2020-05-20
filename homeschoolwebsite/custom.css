@@ -1,0 +1,90 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  font-weight: bolder;
+  color: #031E37;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #031E37;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+#heading {
+  justify-content: center;
+}
+
+.row {
+  padding-bottom: 40px;
+}
+
+.row-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.navbar {
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.navbar-custom {
+  background-color: #0F4C81;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+}
+
+.faqs {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+.bg-1 {
+  background-color: #073762;
+  color: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.jumbotron {
+  background-image: url(https://res.cloudinary.com/dadqhsajo/image/upload/c_scale,h_513/v1589921292/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  padding: 5rem 5rem;
+}
