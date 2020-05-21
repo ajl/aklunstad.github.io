@@ -43,6 +43,10 @@ p {
   justify-content: center;
 }
 
+#googleForm {
+  text-align: center;
+}
+
 .row {
   padding-bottom: 40px;
 }
